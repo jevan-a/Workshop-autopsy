@@ -2,8 +2,8 @@
 # Workshop on Digital Forensics
 Installation and Usage of Sleuth Kit & Autopsy
 ```
-Register Number: 212222040121
-Name: Praveen V
+Register Number: 212222040020
+Name: Ashwinkumar S
 ```
 ## Introduction
 Digital forensics involves extracting and analyzing data from digital devices to investigate cybercrimes. Sleuth Kit and Autopsy are widely used open-source tools for forensic analysis.
@@ -17,20 +17,26 @@ Digital forensics involves extracting and analyzing data from digital devices to
 
 2.Installation Process
 - Launch Autopsy to check if it works correctly.
-  ![Screenshot 2025-03-20 112320](https://github.com/user-attachments/assets/cc1fe43b-5c38-448b-b04c-611d7303273c)
+![Screenshot (163)](https://github.com/user-attachments/assets/ecd94a00-aec6-49cd-ae99-374181d47f39)
+
   
 - Choose Directory
-  ![Screenshot 2025-03-20 112332](https://github.com/user-attachments/assets/6571866c-21af-4314-8ae2-ed372625a4e7)
+- ![Screenshot (164)](https://github.com/user-attachments/assets/c7686c1e-08e1-451c-8968-c34ddde5d8b2)
+
   
 - Give install
-  ![Screenshot 2025-03-20 112339](https://github.com/user-attachments/assets/15efe313-01bb-4a21-a8ec-5b15afd66a20)
-  ![Screenshot 2025-03-20 112358](https://github.com/user-attachments/assets/8abf07cf-8382-4a93-bd01-754b220af25e)
+ ![Screenshot (165)](https://github.com/user-attachments/assets/adaa80eb-e547-48f9-8b0b-4615580d4b6d)
+![Screenshot (166)](https://github.com/user-attachments/assets/02f5e31d-04e7-4128-852d-a8b07ebb458e)
+
 
 - Successfully installed
-  ![Screenshot 2025-03-20 112447](https://github.com/user-attachments/assets/394e94bf-99d2-4af6-a070-fa64f09879b4)
+- ![Screenshot (168)](https://github.com/user-attachments/assets/9f872b0c-c0a2-4e8b-8a37-a6c05e2900ca)
+
 
 - Autopsy Interface
-  ![Screenshot 2025-03-19 222716](https://github.com/user-attachments/assets/3f8dfb03-55b2-4553-8475-de3595a56ff0)
+- ![Screenshot (169)](https://github.com/user-attachments/assets/9c549a9a-531b-42e7-83b9-d6a276c280d3)
+
+
 
 ## B. Installing Sleuth Kit Separately (Optional)
 Download Sleuth Kit from www.sleuthkit.org/sleuthkit/download.php.
@@ -38,7 +44,9 @@ Download Sleuth Kit from www.sleuthkit.org/sleuthkit/download.php.
 
 Extract and install it manually if needed.
 Add the installation directory to the system PATH for easy command-line access.
-![{297520CA-14A7-4A4D-8C03-99E190C2C345}](https://github.com/user-attachments/assets/af8d1960-bab6-4810-9778-616f2305f52f)
+![Screenshot (170)](https://github.com/user-attachments/assets/9a7d49e6-0da9-4226-adc8-162b580eb3a3)
+
+
 
 ## Using Autopsy to Analyze a Disk or Folder
 ## 1.Launch Autopsy and Set Up a New Case:
@@ -50,9 +58,11 @@ Add the installation directory to the system PATH for easy command-line access.
 
 - Enter a case name (e.g., Autopsy1).
 - Select a location for the case folder → Click Next → Finish.
-  ![Screenshot 2025-03-19 223051](https://github.com/user-attachments/assets/2b476fe0-199c-4c25-96c2-63c78183bb6f)
+  ![Screenshot (154)](https://github.com/user-attachments/assets/4a96ebdf-105c-45b2-84a4-ff771da86b50)
+
 - Add optional information
-  ![Screenshot 2025-03-19 223141](https://github.com/user-attachments/assets/45ff54d1-1967-4671-8dbb-a865f55f0316)
+  ![Screenshot (152)](https://github.com/user-attachments/assets/6a193fd6-5314-4eba-aeaf-e0d1ab37ef74)
+
 
 
 ## 2.Add the Partition as Evidence:
@@ -66,7 +76,7 @@ Add the installation directory to the system PATH for easy command-line access.
 
 
 - Choose Disk → Select the VHD drive (Drive1).
-  ![Screenshot 2025-03-19 224001](https://github.com/user-attachments/assets/773c5a67-49c8-421c-b0be-8a19a0e173c8)
+  ![Screenshot (157)](https://github.com/user-attachments/assets/92a6df6e-0dfa-45c4-8b4f-7b8494534c23)
 
 
 - Click Next → Keep the default settings → Click Finish.
@@ -87,21 +97,24 @@ Add the installation directory to the system PATH for easy command-line access.
 sh
 fls -V
 ```
-![Screenshot 2025-03-20 114536](https://github.com/user-attachments/assets/b266d5a0-845f-428e-b16d-bf573d26ce5b)
+![Screenshot (170)](https://github.com/user-attachments/assets/163a27e9-5f20-4373-bb1c-6cdb74929179)
+
 
 ### B. Lists partition layout
 ```
 sh
 mmls
 ```
-![Screenshot 2025-03-20 115503](https://github.com/user-attachments/assets/f341a4af-2ff7-421b-a603-0cdace2321fa)
+![Screenshot (171)](https://github.com/user-attachments/assets/6a3fe9a0-bd37-4621-8caf-2e9e57c7f742)
+
 
 ### C. Lists files and directories
 ```
 sh
 fls
 ```
-![Screenshot 2025-03-20 115721](https://github.com/user-attachments/assets/73dfede6-f37b-4673-9405-bc66ca64f2ab)
+![Screenshot (171)](https://github.com/user-attachments/assets/801210af-ba38-43b3-939d-e8eed721912f)
+
 
 ## Conclusion
 By following these steps, you can install Sleuth Kit & Autopsy and analyze a disk or folder from the C drive. These tools help in digital investigations, allowing forensic experts to recover and analyze digital evidence.
